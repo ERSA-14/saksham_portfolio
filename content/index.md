@@ -1,46 +1,50 @@
-# Tolkien Fan Club
+# Crafting with a Human Touch
 
-![JRR Tolkien sitting](/images/tolkien.png)
+*Welcome to my little corner of the internet, Me a software artisan and engineer trying to keep things simple.*
 
-Here's the deal, **I like Tolkien**.
+Come on in. Seriously.
 
-> "I am in fact a Hobbit in all but size."
->
-> -- J.R.R. Tolkien
+This is where I build stuff, take it apart, rebuild it, and then wonder why I didn’t just take a nap.
 
-## Blog posts
+I’m **Saksham Gupta**. I build services, poke at AI, and I like designing systems that don’t fall over the second reality shows up.
 
-- [Why Glorfindel is More Impressive than Legolas](/blog/glorfindel)
-- [Why Tom Bombadil Was a Mistake](/blog/tom)
-- [The Unparalleled Majesty of "The Lord of the Rings"](/blog/majesty)
+And yeah, I’m pretty sure software is a human craft. Not just tickets and “deliverables.” Every line of code is part of a bigger story, and if the tool you’re building doesn’t make someone’s life a bit easier… what’s the point?
 
-## Reasons I like Tolkien
+> "Technology is at its best when it feels like a warm hearth in a quiet log cabin simple, honest, built by hand, and designed to bring people together."
 
-- You can spend years studying the legendarium and still not understand its depths
-- It can be enjoyed by children and adults alike
-- Disney _didn't ruin it_ (okay, but Amazon might have)
-- It created an entirely new genre of fantasy
 
-## My favorite characters (in order)
+## Magic field of Logic
 
-1. Gandalf
-2. Bilbo
-3. Sam
-4. Glorfindel
-5. Galadriel
-6. Elrond
-7. Thorin
-8. Sauron
-9. Aragorn
+_Here lies the method behind the madness_
 
-Here's what `elflang` looks like (the perfect coding language):
+* **No bloat:** If a page is just text, it should load like it’s just text.
+* **Know what’s happening:** I like building close to the metal so I actually understand the moving parts.
+* **I chase “why”:** I’m the person who clicks into the rabbit hole. Parsers, infra, edge cases.
+* **It should feel human:** A site shouldn’t read like a template. It should sound like someone.
+
+
+## Taming the Monster
+
+Some mornings it listens. Most mornings it doesn't
+
+I've been poking at AI long enough to know it's not magic, it's just a very confident guesser. My job is figuring out when it's right, when it's lying, and when it has absolutely no idea but sounds certain anyway.
+
+
+## Artifacts of the Craft
+
+* [AI — Breeding intelligence, exploring reasoning paths](https://github.com/ERSA-14/Python-AI)
+* [AWS Lambda — Summoning serverless event-driven architecture](https://github.com/ERSA-14/AWS-Lambda)
+* [RAG — Bridging AI models with precise private databases](https://github.com/ERSA-14/rag)
+
+
+## Writing Digital Spells
 
 ```
-func main(){
-    fmt.Println("Aiya, Ambar!")
-}
+# Uniting machine capability with human spirit
+def generate_magic():
+    craft = "Code"
+    spirit = "Humanity"
+    return f"Successfully merged {craft} and {spirit}."
+
+print(generate_magic())
 ```
-
-Want to get in touch? [Contact me here](/contact).
-
-This site was generated with a custom-built [static site generator](https://www.boot.dev/courses/build-static-site-generator-python) from the course on [Boot.dev](https://www.boot.dev).

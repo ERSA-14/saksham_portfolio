@@ -25,9 +25,9 @@ def block_to_block_type(block: str) -> BlockType:
             if not line.startswith(">"):
                 return BlockType.PARAGRAPH
         return BlockType.QUOTE
-    if block.startswith("- "):
+    if block.startswith(("- ", "* ")):
         for line in lines:
-            if not line.startswith("- "):
+            if not (line.startswith("- ") or line.startswith("* ")):
                 return BlockType.PARAGRAPH
         return BlockType.ULIST
     if block.startswith("1. "):
@@ -41,17 +41,35 @@ def block_to_block_type(block: str) -> BlockType:
 
 
 def markdown_to_blocks(markdown: str) -> list[str]:
-    lines = [line.strip() for line in markdown.split("\n")]
+    lines = markdown.split("\n")
     blocks: list[str] = []
     current: list[str] = []
+    in_code_block = False
 
     for line in lines:
-        if line == "":
+        stripped = line.strip()
+        if stripped.startswith("```"):
+            if not in_code_block:
+                in_code_block = True
+                current.append(stripped)
+            else:
+                in_code_block = False
+                current.append(stripped)
+                blocks.append("\n".join(current))
+                current = []
+            continue
+
+        if in_code_block:
+            current.append(line)
+            continue
+
+        if stripped == "":
             if current:
                 blocks.append("\n".join(current))
                 current = []
             continue
-        current.append(line)
+
+        current.append(stripped)
 
     if current:
         blocks.append("\n".join(current))
@@ -86,6 +104,12 @@ def block_to_html_node(block):
 
 
 def text_to_children(text):
+    if text.startswith("*") and text.endswith("*") and text.count("*") == 2:
+        inner_text = text[1:-1]
+        inner_nodes = text_to_textnodes(inner_text)
+        inner_children = [text_node_to_html_node(n) for n in inner_nodes]
+        return [ParentNode("i", inner_children)]
+
     text_nodes = text_to_textnodes(text)
     children = []
     for text_node in text_nodes:
@@ -140,7 +164,10 @@ def ulist_to_html_node(block):
     items = block.split("\n")
     html_items = []
     for item in items:
-        text = item[2:]
+        if item.startswith("- ") or item.startswith("* "):
+            text = item[2:]
+        else:
+            text = item
         children = text_to_children(text)
         html_items.append(ParentNode("li", children))
     return ParentNode("ul", html_items)

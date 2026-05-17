@@ -1,130 +1,154 @@
+/* Heads up: this is intentionally stark. Just black on white, with a lot of breathing room. */
+
+/* Base: readable defaults, nothing fancy */
+html {
+    font-size: 18px;
+}
+
 body {
-    background-color: #1f1c25;
-    color: #f0e6d1;
-    font-family: "Luminari", "Georgia", serif;
-    line-height: 1.7;
     margin: 0;
-    padding: 20px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    background: #fff;
+    color: #000;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 1.65;
 }
 
-b {
-    font-weight: 900;
+/* Layout: keep the page narrow so it reads like a note, not a dashboard */
+main {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 4rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #dda15e;
-    margin-top: 24px;
-    margin-bottom: 16px;
-    text-shadow: 2px 2px 4px #000;
+/* Header: simple, like a handwritten label at the top of a page */
+header {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 1.75rem 1.25rem 0.5rem;
 }
 
-h1 {
-    font-size: 2.5em;
+.nav-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
 
-h2 {
-    font-size: 2em;
-}
-
-h3 {
-    font-size: 1.5em;
-}
-
-h4,
-h5,
-h6 {
-    font-size: 1.2em;
-}
-
-a {
-    color: #e0a96d;
+.nav-logo {
+    font-weight: 700;
     text-decoration: none;
-    border-bottom: 2px solid #e0a96d;
+    color: #000;
 }
 
-a:hover {
-    color: #f4a261;
-    border-color: #f4a261;
+.nav-logo span {
+    font-weight: 400;
 }
 
-ul,
-ol {
-    padding-left: 30px;
-}
-
-code {
-    background-color: #3c3c42;
-    border-radius: 6px;
-    color: #e9c46a;
-    padding: 0.4em 0.6em;
-    font-family: "Courier New", monospace;
-}
-
-pre code {
+.nav-links {
+    list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
-pre {
-    background-color: #3c3c42;
-    border-radius: 6px;
-    padding: 1em;
-    overflow: auto;
-    box-shadow: 2px 2px 6px #000;
+.nav-links a {
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 1px;
 }
 
-blockquote {
-    background-color: #2e2c35;
-    border-left: 4px solid #8d99ae;
-    padding-left: 2em;
-    margin-left: 0;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    padding-right: 0.5em;
-    color: #ddd;
+/* Typography: two-ish sizes, lots of line-height */
+article h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0 0 1.25rem;
+}
+
+article h2 {
+    font-size: 1.35rem;
+    line-height: 1.25;
+    margin: 2.25rem 0 0.75rem;
+}
+
+article p {
+    margin: 0 0 1rem;
+}
+
+article p i {
     font-style: italic;
 }
 
+/* Links: underline is enough; no special colors */
+article a {
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+/* Lists: keep them honest and readable */
+article ul,
+article ol {
+    margin: 0 0 1.25rem;
+    padding-left: 1.25rem;
+}
+
+article li {
+    margin: 0.35rem 0;
+}
+
+/* Code: give it a quiet box so it doesn't get lost in paragraphs */
+code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.95em;
+}
+
+p code,
+li code {
+    padding: 0.1em 0.25em;
+    border: 1px dotted #000;
+}
+
+pre {
+    margin: 1.75rem 0;
+    padding: 1rem 1.25rem;
+    border-left: 2px solid #000;
+    overflow-x: auto;
+}
+
+pre code {
+    border: 0;
+    padding: 0;
+    display: block;
+}
+
+/* Quotes: a left rule and italics is all it needs */
+blockquote {
+    margin: 1.75rem 0;
+    padding: 0.25rem 0 0.25rem 1.25rem;
+    border-left: 2px solid #000;
+    font-style: italic;
+}
+
+/* Images: let them breathe; don't decorate them */
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 6px;
-    border: 3px solid #3c3c42;
-    box-shadow: 3px 3px 6px #000;
+    display: block;
+    margin: 1.5rem 0;
 }
 
-::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
-}
+/* Small screens: keep the nav from feeling cramped */
+@media (max-width: 520px) {
+    html {
+        font-size: 17px;
+    }
 
-::-webkit-scrollbar-track {
-    background: #1f1c25;
-    border-radius: 6px;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #3c3c42;
-    border-radius: 6px;
-    border: 3px solid #1f1c25;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: #5a5466;
-}
-
-* {
-    scrollbar-width: thin;
-    scrollbar-color: #3c3c42 #1f1c25;
-}
-
-::-webkit-scrollbar-corner {
-    background: #1f1c25;
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }

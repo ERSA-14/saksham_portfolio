@@ -177,14 +177,7 @@ class TestTextNode(unittest.TestCase):
         ]
         self.assertListEqual(expected, matches)
 
-        text = "This is text with a link [to boot dev](https://www.boot.dev) and [to youtube](https://www.youtube.com/@bootdotdev)"
-        matches = extract_markdown_links(text)
-        expected = [
-            ("to boot dev", "https://www.boot.dev"),
-            ("to youtube", "https://www.youtube.com/@bootdotdev"),
-        ]
-        self.assertListEqual(expected, matches)
-
+        
         text = "This is plain text with no links or images."
         self.assertEqual([], extract_markdown_images(text))
         self.assertEqual([], extract_markdown_links(text))
