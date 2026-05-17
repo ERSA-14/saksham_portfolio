@@ -6,8 +6,8 @@ If you’ve got an architectural knot you can’t untie, want to trade scripts, 
 
 ## Direct Sigils
 
-* **Email:** saksham22sg@gmail.com
-* **Phone:** 6358798314
+* **Email:-** saksham22sg@gmail.com
+* **Phone:-** 6358798314
 
 ## Send a Message
 

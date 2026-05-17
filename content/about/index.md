@@ -8,18 +8,18 @@ I don’t see programming as “typing instructions until the error goes away.�
 
 I’d rather go deep than go fast. I like knowing why an architecture works, where it breaks, and what it’s secretly doing when nobody’s watching.
 
-Also: I’m the kind of person who’ll go for a quiet walk and come back thinking about event loops. So there’s that.
+Also:- I’m the kind of person who’ll go for a quiet walk and come back thinking about event loops. So there’s that.
 
 
 ## The Road Less Traveled
 
-My whole approach is basically this Robert Frost bit:
+My whole approach is basically this Robert Frost bit:-
 
 > "Two roads diverged in a wood, and
 > I took the one less traveled by,
 > And that has made all the difference."
 
-A lot of tech is built on the easy path: heavy frameworks, click-and-drag tools, and copy-paste everything.
+A lot of tech is built on the easy path:- heavy frameworks, click-and-drag tools, and copy-paste everything.
 
 It works. It’s fast. And sometimes it feels kind of… empty.
 

@@ -17,10 +17,10 @@ And yeah, I’m pretty sure software is a human craft. Not just tickets and “d
 
 _Here lies the method behind the madness_
 
-* **No bloat:** If a page is just text, it should load like it’s just text.
-* **Know what’s happening:** I like building close to the metal so I actually understand the moving parts.
-* **I chase “why”:** I’m the person who clicks into the rabbit hole. Parsers, infra, edge cases.
-* **It should feel human:** A site shouldn’t read like a template. It should sound like someone.
+* **No bloat:-** If a page is just text, it should load like it’s just text.
+* **Know what’s happening:-** I like building close to the metal so I actually understand the moving parts.
+* **I chase “why”:-** I’m the person who clicks into the rabbit hole. Parsers, infra, edge cases.
+* **It should feel human:-** A site shouldn’t read like a template. It should sound like someone.
 
 
 ## Taming the Monster
@@ -32,9 +32,9 @@ I've been poking at AI long enough to know it's not magic, it's just a very conf
 
 ## Artifacts of the Craft
 
-* [AI — Breeding intelligence, exploring reasoning paths](https://github.com/ERSA-14/Python-AI)
-* [AWS Lambda — Summoning serverless event-driven architecture](https://github.com/ERSA-14/AWS-Lambda)
-* [RAG — Bridging AI models with precise private databases](https://github.com/ERSA-14/rag)
+* [AI:- Breeding intelligence, exploring reasoning paths](https://github.com/ERSA-14/Python-AI)
+* [AWS Lambda:- Summoning serverless event-driven architecture](https://github.com/ERSA-14/AWS-Lambda)
+* [RAG:- Bridging AI models with precise private databases](https://github.com/ERSA-14/rag)
 
 
 ## Writing Digital Spells
