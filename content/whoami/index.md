@@ -1,6 +1,6 @@
 # Mornings, Code, and Curiosity
 
-*The chronicle of a modern scribe walking the line between logic and life.*
+_The chronicle of a modern scribe walking the line between logic and life._
 
 If you’re trying to understand what I build, it helps to understand how I think.
 
@@ -9,7 +9,6 @@ I don’t see programming as “typing instructions until the error goes away.�
 I’d rather go deep than go fast. I like knowing why an architecture works, where it breaks, and what it’s secretly doing when nobody’s watching.
 
 Also:- I’m the kind of person who’ll go for a quiet walk and come back thinking about event loops. So there’s that.
-
 
 ## The Road Less Traveled
 

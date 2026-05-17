@@ -7,11 +7,11 @@ If you’ve got an architectural knot you can’t untie, want to trade scripts, 
 ## Direct Sigils
 
 - **Email:-** saksham22sg@gmail.com
-- **Phone:-** 6358798314
+- **Phone:-** +91-635-879-8314
 
 ## Send a Message
 
-Send a digital raven to the email sigil above.
+Send a digital raven to the Email sigil above.
 
 Whether it’s AI reasoning paths, event-driven scaling, or the optimal way to enjoy Manchurian, I’ll get back to you as soon as I can.
 

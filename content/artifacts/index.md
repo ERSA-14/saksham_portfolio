@@ -1,6 +1,6 @@
 # Spells Cast in Python
 
-*A detailed look into the mechanics of my primary creations.*
+_A detailed look into the mechanics of my primary creations._
 
 Here’s a small archive of the main things I’ve built.
 
@@ -26,6 +26,6 @@ This one’s about event-driven cloud workflows the kind where you don’t need 
 
 A RAG setup that’s meant to connect heavier reasoning models with private, semantic data.
 
-The goal is simple: fetch the right context fast, so the answers aren’t just confident — they’re grounded.
+The goal is simple: fetch the right context fast, so the answers aren’t just confident they’re grounded.
 
-[Examine Github Repository](https://github.com/ERSA-14/rag)
+[Github Repository](https://github.com/ERSA-14/rag)
