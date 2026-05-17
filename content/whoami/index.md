@@ -32,4 +32,3 @@ Behind every cloud microservice or neural model is a human ritual.
 Some mornings I'm up before everyone else. Chai's not even ready. Linux terminal is already open.
 
 And somehow there's always leftover _Chinese Manchurian_ nearby. Cold. Still good.
-
