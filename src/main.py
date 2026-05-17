@@ -13,7 +13,7 @@ def main():
         basepath = f"{basepath}/"
 
     source = "static"
-    destination = "docs"
+    destination = sys.argv[2] if len(sys.argv) > 2 else "docs"
     static_to_public(source, destination)
     generate_pages_recursive("content", "template.html", destination, basepath)
 
