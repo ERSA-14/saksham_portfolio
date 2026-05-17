@@ -1,33 +1,77 @@
-# Static Generator
+# saksham_portfolio
 
-A small learning project for building HTML nodes (`HTMLNode`, `LeafNode`, `ParentNode`) and inline text nodes (`TextNode`), then generating a static site into the `docs/` folder.
+A hand-rolled static site generator written in Python. No frameworks, no dependencies — just Markdown in, HTML out.
+
+Live at → **[ersa-14.github.io/saksham_portfolio](https://ersa-14.github.io/saksham_portfolio/)**
+
+---
+
+## How it works
+
+- Markdown files in `content/` are parsed and injected into `template.html`
+- Static assets (CSS, images) from `static/` are copied to the output directory
+- Nav and asset links are rewritten with the correct basepath for the target environment
 
 ## Requirements
 
 - Python 3.10+
 
-## Run (local)
+---
 
-    python3 src/main.py
-    ./main.sh
+## Local development
 
-This builds into `docs/` and serves it on port `8888`.
+```bash
+./main.sh
+```
 
-## Build for GitHub Pages
+Builds to `public/` (gitignored) and serves on `http://localhost:8888`.  
+**Does not touch `docs/`** — safe to run anytime.
 
-    ./build.sh
+## Deploy to GitHub Pages
 
-This runs `python3 src/main.py "/static_generator/"` to set the base path for GitHub Pages. Replace `/static_generator/` with your repo name if needed.
+```bash
+./build.sh
+git add docs/
+git commit -m "rebuild"
+git push
+```
 
-## Tests
+Builds to `docs/` with the `/saksham_portfolio/` basepath, then push to deploy.  
+GitHub Pages serves from the `docs/` folder on the `main` branch.
 
-    python3 -m unittest discover -s src
-    ./test.sh
+> ⚠️ Never run `python3 src/main.py` without arguments and commit `docs/` — it will use the wrong basepath and break the live site.
+
+---
 
 ## Project layout
 
-- `src/htmlnode.py`: `HTMLNode`, `LeafNode`, `ParentNode`
-- `src/textnode.py`: `TextType`, `TextNode`, `text_node_to_html_node`
-- `src/markdown.py`: markdown parsing and HTML conversion
-- `src/main.py`: build entry point
-- `src/test_htmlnode.py`, `src/test_textnode.py`: unit tests
+```
+.
+├── content/          # Markdown source pages
+│   ├── index.md
+│   ├── about/
+│   ├── projects/
+│   └── contact/
+├── static/           # Assets copied as-is to output
+│   └── index.css
+├── src/
+│   ├── main.py       # Build entry point
+│   ├── markdown.py   # Markdown parser and HTML converter
+│   ├── htmlnode.py   # HTMLNode, LeafNode, ParentNode
+│   ├── textnode.py   # TextNode and inline text parsing
+│   └── Static_to_public.py
+├── template.html     # Page shell (title + nav + content slot)
+├── docs/             # GitHub Pages output (built by build.sh)
+├── public/           # Local dev output (built by main.sh, gitignored)
+├── main.sh           # Local dev: builds to public/ + serves on :8888
+├── build.sh          # GitHub Pages: builds to docs/ with correct basepath
+└── test.sh           # Runs unit tests
+```
+
+## Tests
+
+```bash
+./test.sh
+# or
+python3 -m unittest discover -s src
+```
