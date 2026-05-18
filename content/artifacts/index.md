@@ -2,7 +2,7 @@
 
 _A detailed look into the mechanics of my primary creations._
 
-Mostly AI experiments, serverless systems, automation, Scripts and search/retrieval work. Stuff I actually use & care about  and keep coming back to.
+Mostly AI experiments, serverless systems, automation, Scripts and search & retrieval work. Stuff I actually use & care about  and keep coming back to.
 
 ## Agentic Coding Assistant
 
@@ -12,7 +12,7 @@ GenAI, function calling, reasoning models mostly just me asking, but why does it
 
 [Github Repository](https://github.com/ERSA-14/Python-AI)
 
-## AWS Lambda Cloud Bill processing pipeline
+## AWS Lambda Cloud Bill Processing Pipeline
 
 Serverless systems that wake up, do their job, and go back to sleep.
 

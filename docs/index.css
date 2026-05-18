@@ -147,7 +147,7 @@ p {
 a {
     color: #000;
     text-decoration: underline;
-    text-underline-offset: 0.25em;
+    text-underline-offset: 0.4em;
     text-decoration-thickness: 1px;
     font-weight: 500;
 }
