@@ -11,6 +11,7 @@ body {
     font-family: "Spectral", Georgia, serif;
     line-height: 1.8;
     text-align: justify;
+    hyphens: auto;
     display: flex;
     flex-direction: column;
 }
@@ -19,12 +20,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 1.5rem;
 }
 
 header>div {
     width: 100%;
     max-width: 48rem;
-    padding: 2.25rem 1.5rem 0.75rem;
+    padding: 1.5rem 0 0.75rem;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -92,7 +94,7 @@ h6 {
 }
 
 h1 {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     margin-top: 0.25rem;
 }
 
@@ -134,7 +136,7 @@ li {
 
 code {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-size: 0.95em;
+    font-size: 0.9rem;
 }
 
 pre {
@@ -153,7 +155,7 @@ blockquote {
     font-style: italic;
     display: flex;
     flex-direction: column;
-    font-weight: 550
+    font-weight: 500
 }
 
 img {
@@ -166,5 +168,17 @@ img {
 @media (max-width: 600px) {
     html {
         font-size: 17px;
+    }
+
+    header>div {
+        padding: 1.25rem 1.25rem 0.5rem;
+    }
+
+    main {
+        padding: 1.25rem 1.25rem 3.5rem;
+    }
+
+    h1 {
+        font-size: 1.9rem;
     }
 }
