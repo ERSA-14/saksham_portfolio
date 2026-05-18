@@ -68,7 +68,7 @@ header {
     white-space: nowrap;
     display: inline-block;
     text-decoration: none;
-    letter-spacing: 1.5pt;
+    letter-spacing: 0.15rem;
 }
 
 .nav-logo .logo-strong {
