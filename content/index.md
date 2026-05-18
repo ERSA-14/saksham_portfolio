@@ -1,4 +1,4 @@
-# Crafting with a Human Touch
+# Conjured, not copied
 
 _Welcome to my little corner of the internet, Me a software artisan and engineer trying to keep things simple._
 
@@ -12,14 +12,14 @@ And yeah, I’m pretty sure software is a human craft. Not just tickets and “d
 
 > "Technology is at its best when it feels like a warm hearth in a quiet log cabin simple, honest, built by hand, and designed to bring people together."
 
-## Magic field of Logic
+## Why It Works
 
 _Here lies the method behind the madness_
 
-- **No bloat:-** If a page is just text, it should load like it’s just text.
-- **Know what’s happening:-** I like building close to the metal so I actually understand the moving parts.
-- **I chase “why”:-** I’m the person who clicks into the rabbit hole. Parsers, infra, edge cases.
-- **It should feel human:-** A site shouldn’t read like a template. It should sound like someone.
+1. **No bloat:** If a page is just text, it should load like it’s just text.
+2. **Know what’s happening:** I like building close to the metal so I actually understand the moving parts.
+3. **I chase “why”:** I’m the person who clicks into the rabbit hole. Parsers, infra, weird edge cases.
+4. **It should feel human:** A site shouldn’t read like a template. It should sound like someone.
 
 ## Taming the Monster
 
@@ -37,10 +37,11 @@ I've been poking at AI long enough to know it's not magic, it's just a very conf
 
 ```
 # Uniting machine capability with human spirit
+
 def generate_magic():
-    craft = "Code"
-    spirit = "Humanity"
-    return f"Successfully merged {craft} and {spirit}."
+  text = "   hello mage"
+  print(re.match(r'hello', text))
+  print(re.search(r'hello', text))
 
 print(generate_magic())
 ```

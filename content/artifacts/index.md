@@ -1,8 +1,6 @@
-# Spells Cast in Python
+# My SpellBook
 
 _A detailed look into the mechanics of my primary creations._
-
-Here’s a small archive of the main things I’ve built.
 
 Mostly AI experiments, serverless systems, and search/retrieval work. Stuff I actually care about and keep coming back to.
 
