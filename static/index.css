@@ -106,6 +106,7 @@ main {
 
 article {
     width: 100%;
+    min-width: 10rem;
     max-width: 52rem;
     display: flex;
     flex-direction: column;
