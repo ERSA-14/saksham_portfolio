@@ -2,8 +2,6 @@
 
 A hand-rolled static site generator written in Python. No frameworks, no dependencies — just Markdown in, HTML out.
 
-Live at → **[ersa-14.github.io/saksham_portfolio](https://ersa-14.github.io/saksham_portfolio/)**
-
 ---
 
 ## How it works
