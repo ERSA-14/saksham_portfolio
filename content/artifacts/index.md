@@ -2,7 +2,7 @@
 
 _A detailed look into the mechanics of my primary creations._
 
-Mostly AI experiments, serverless systems, and search/retrieval work. Stuff I actually care about and keep coming back to.
+Mostly AI experiments, serverless systems, automation, Scripts and search/retrieval work. Stuff I actually use & care about  and keep coming back to.
 
 ## Agentic Coding Assistant
 
