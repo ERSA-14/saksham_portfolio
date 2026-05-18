@@ -1,6 +1,6 @@
 # MD -> HTML
 
-A hand-rolled static site generator written in Python. No frameworks, no dependencies — just Markdown in, HTML out.
+A hand-rolled static site generator written in Python. No frameworks, no dependencies —> just Markdown in, HTML out.
 
 ---
 
@@ -37,7 +37,7 @@ git push
 Builds to `docs/` with the `/saksham_portfolio/` basepath, then push to deploy.  
 GitHub Pages serves from the `docs/` folder on the `main` branch.
 
-> ⚠️ Never run `python3 src/main.py` without arguments and commit `docs/` — it will use the wrong basepath and break the live site.
+> Never run `python3 src/main.py` without arguments and commit `docs/` — it will use the wrong basepath and break the live site.
 
 ---
 
