@@ -29,7 +29,7 @@ I've been poking at AI long enough to know it's not magic, it's just a very conf
 
 ## Artifacts of the Craft
 
-- [AI:- Breeding intelligence, exploring reasoning paths](https://github.com/ERSA-14/Python-AI)
+- [AI Agent:- Breeding intelligence, exploring reasoning paths](https://github.com/ERSA-14/Python-AI)
 - [AWS Lambda:- Summoning serverless event-driven architecture](https://github.com/ERSA-14/AWS-Lambda)
 - [RAG:- Bridging AI models with precise private databases](https://github.com/ERSA-14/rag)
 

@@ -6,16 +6,16 @@ html {
 }
 
 :root {
-    --nav-width: 120px;
+    --nav-width: 110px;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 15px;
     background: #fff;
     color: #000;
     font-family: "Spectral", Georgia, serif;
-    line-height: 1.8;
+    line-height: 1.9;
     word-spacing: 0.3em;
     text-align: justify;
     hyphens: auto;
@@ -67,7 +67,8 @@ header {
     transform: rotate(180deg);
     white-space: nowrap;
     display: inline-block;
-    text-decoration: none
+    text-decoration: none;
+    letter-spacing: 1.5pt;
 }
 
 .nav-logo .logo-strong {
@@ -166,7 +167,8 @@ li {
 
 code {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    font-weight: 100;
 }
 
 pre {
@@ -194,22 +196,4 @@ img {
     height: auto;
     display: flex;
     margin: 1.75rem 0;
-}
-
-@media (max-width: 600px) {
-    html {
-        font-size: 18px;
-    }
-
-    .nav-container {
-        padding: 1rem 0.2rem 0.2rem;
-    }
-
-    main {
-        padding: 1rem 1rem 2rem 0.5rem;
-    }
-
-    h1 {
-        font-size: 1.7rem;
-    }
 }
