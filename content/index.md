@@ -10,16 +10,16 @@ I’m **Saksham Gupta**. I build services, poke at AI, and I like designing syst
 
 And yeah, I’m pretty sure software is a human craft. Not just tickets and “deliverables.” Every line of code is part of a bigger story, and if the tool you’re building doesn’t make someone’s life a bit easier… what’s the point?
 
-> "I want AI to do my laundry and dishes so that I can do art and writing, not for AI to do my art and writing so that I can do my laundry and dishes." by _Joanna Maciejewska_
+> "I want AI to do my laundry and dishes so that I can do art and writing, not for AI to do my art and writing so that I can do my laundry and dishes."
 
 ## Why It Works
 
 _Here lies the method behind the madness_
 
-1. **No bloat:** If a page is just text, it should load like it’s just text.
-2. **Know what’s happening:** I like building close to the metal so I actually understand the moving parts.
-3. **I chase “why”:** I’m the person who clicks into the rabbit hole. Parsers, infra, weird edge cases.
-4. **It should feel human:** A site shouldn’t read like a template. It should sound like someone.
+1. **No bloat:-** If a page is just text, it should load like it’s just text.
+2. **Know what’s happening:-** I like building close to the metal so I actually understand the moving parts.
+3. **I chase “why”:-** I’m the person who clicks into the rabbit hole. Parsers, infra, weird edge cases.
+4. **It should feel human:-** A site shouldn’t read like a template. It should sound like someone.
 
 ## Taming the Monster
 

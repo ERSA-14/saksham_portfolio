@@ -1,167 +1,170 @@
-/* Heads up: this is intentionally stark. Just black on white, with a lot of breathing room. */
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;600;700&display=swap");
 
-/* Base: readable defaults, nothing fancy */
 html {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 body {
     margin: 0;
-    /* Slightly darker than pure white so the page feels like paper, not a flashlight */
-    background: #faffff;
+    background: #fff;
     color: #000;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    line-height: 1.65;
+    font-family: "Spectral", Georgia, serif;
+    line-height: 1.8;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
 }
 
-/* Layout: keep the page narrow so it reads like a note, not a dashboard */
-main {
-    max-width: 44rem;
-    margin: 0 auto;
-    padding: 2.25rem 1.25rem 4rem;
-}
-
-/* Header: simple, like a handwritten label at the top of a page */
 header {
-    max-width: 44rem;
-    margin: 0 auto;
-    padding: 1.75rem 1.25rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.nav-container {
+header>div {
+    width: 100%;
+    max-width: 48rem;
+    padding: 2.25rem 1.5rem 0.75rem;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 2.5rem;
     flex-wrap: wrap;
+}
+
+header ul a {
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 0.32em;
+    text-decoration-thickness: 1px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
 }
 
 .nav-logo {
-    font-weight: 700;
-    text-decoration: none;
     color: #000;
-}
-
-.nav-logo span {
+    text-decoration: none;
     font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
-.nav-links {
+header a:first-child span {
+    font-weight: 600;
+}
+
+header ul {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
     display: flex;
-    gap: 1rem;
+    flex-direction: row;
+    gap: 1.75rem;
     flex-wrap: wrap;
 }
 
-.nav-links a {
-    color: #000;
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.28em;
-    text-decoration-skip-ink: auto;
+header li {
+    margin: 0;
 }
 
-/* Typography: two-ish sizes, lots of line-height */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 1.5rem 4.5rem;
+}
+
 article {
-    /* Give the words their own "sheet" to sit on, without borders or shadows */
-    background: #faffff;
-    padding: 1rem 1.25rem;
+    width: 100%;
+    max-width: 48rem;
+    display: flex;
+    flex-direction: column;
 }
 
-article h1 {
-    font-size: 2rem;
-    line-height: 1.27;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 2rem 0 0.75rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+    margin-top: 0.25rem;
+}
+
+h2 {
+    font-size: 1.45rem;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.45rem;
+}
+
+p {
     margin: 0 0 1.25rem;
 }
 
-article h2 {
-    font-size: 1.4rem;
-    line-height: 1.2;
-    margin: 2.25rem 0 0.75rem;
-}
-
-article p {
-    margin: 0 0 1rem;
-    text-align: justify;
-}
-
-article p i {
-    font-style: italic;
-}
-
-/* Links: underline is enough; no special colors */
-article a {
+a {
     color: #000;
     text-decoration: underline;
+    text-underline-offset: 0.25em;
     text-decoration-thickness: 1px;
-    text-underline-offset: 0.28em;
-    text-decoration-skip-ink: auto;
+    font-weight: 500;
 }
 
-/* Lists: keep them honest and readable */
-article ul,
-article ol {
-    margin: 0 0 1.25rem;
+ul,
+ol {
+    margin: 0 0 1.35rem;
     padding-left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
-article li {
-    margin: 0.35rem 0;
-    text-align: justify;
+li {
+    margin: 0;
 }
 
-/* Code: give it a quiet box so it doesn't get lost in paragraphs */
 code {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     font-size: 0.95em;
 }
 
-p code,
-li code {
-    padding: 0.1em 0.25em;
-    border: 1px dotted #000;
-}
-
 pre {
-    margin: 1.75rem 0;
+    margin: 1.5rem 0;
     padding: 1rem 1.25rem;
-    border: 2px solid #000;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
     overflow-x: auto;
 }
 
-pre code {
-    border: 0;
-    padding: 0;
-    display: block;
-}
-
-/* Quotes: a left rule and italics is all it needs */
 blockquote {
     margin: 1.75rem 0;
-    padding: 0.25rem 0 0.25rem 1.25rem;
-    border-left: 2px solid #000;
+    padding-left: 1rem;
+    border-left: 1px solid #000;
     font-style: italic;
-    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    font-weight: 550
 }
 
-/* Images: let them breathe; don't decorate them */
 img {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin: 1.5rem 0;
+    display: flex;
+    margin: 1.75rem 0;
 }
 
-/* Small screens: keep the nav from feeling cramped */
-@media (max-width: 520px) {
+@media (max-width: 600px) {
     html {
         font-size: 17px;
-    }
-
-    .nav-container {
-        flex-direction: column;
-        align-items: flex-start;
     }
 }
