@@ -10,7 +10,7 @@ I’m **Saksham Gupta**. I build services, poke at AI, and I like designing syst
 
 And yeah, I’m pretty sure software is a human craft. Not just tickets and “deliverables.” Every line of code is part of a bigger story, and if the tool you’re building doesn’t make someone’s life a bit easier… what’s the point?
 
-> "Technology is at its best when it feels like a warm hearth in a quiet log cabin simple, honest, built by hand, and designed to bring people together."
+> "I want AI to do my laundry and dishes so that I can do art and writing, not for AI to do my art and writing so that I can do my laundry and dishes." by _Joanna Maciejewska_
 
 ## Why It Works
 
@@ -36,7 +36,7 @@ I've been poking at AI long enough to know it's not magic, it's just a very conf
 ## Writing Digital Spells
 
 ```
-# Uniting machine capability with human spirit
+# bleed. code. repeat.
 
 def generate_magic():
   text = "   hello mage"

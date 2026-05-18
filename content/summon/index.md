@@ -13,8 +13,7 @@ Send a digital raven to the Email sigil above.
 
 _Drop a packet. I promise I won't rate-limit you_
 
----
 
-_This study is compiled by a self-built, lightweight_ [Static Site Generator](https://github.com/ERSA-14/saksham_portfolio) _built as a learning tool._
+> "_This is compiled by a self-built, lightweight_ [Static Site Generator](https://github.com/ERSA-14/saksham_portfolio) _built as a learning tool._"
 
 [OLD RESUME](https://drive.google.com/file/d/1rnaYwBMzuMnFdskRM1esQ9ORElwHWYZj/view?usp=drive_link)
