@@ -1,5 +1,7 @@
 # My SpellBook
 
+![Artifacts](/images/Artifacts.png)
+
 _A detailed look into the mechanics of my primary creations._
 
 Mostly AI experiments, serverless systems, automation, Scripts and search & retrieval work. Stuff I actually use & care about  and keep coming back to.

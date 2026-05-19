@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,700&display=swap");
 
 html {
-    font-size: 19px;
+    font-size: 18px;
+    word-spacing: 0.25em;
+    letter-spacing: 0.02rem
 }
 
 :root {
@@ -108,7 +110,7 @@ main {
 article {
     width: 100%;
     min-width: 10rem;
-    max-width: 52rem;
+    max-width: 56rem;
     display: flex;
     flex-direction: column;
 }
@@ -192,8 +194,11 @@ blockquote {
 }
 
 img {
+    width: auto;
     max-width: 100%;
     height: auto;
-    display: flex;
-    margin: 1.75rem 0;
+    display: block;
+    margin: 1.5rem auto;
+    border: 1px solid #000;
+    box-sizing: border-box;
 }

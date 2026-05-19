@@ -1,5 +1,7 @@
 # Conjured, not copied
 
+![Home](/images/Home.png)
+
 _Welcome to my little corner of the internet, Me a software artisan and engineer trying to keep things simple._
 
 Come on in. Seriously.
@@ -36,7 +38,7 @@ I've been poking at AI long enough to know it's not magic, it's just a very conf
 ## Writing Digital Spells
 
 ```
-# bleed. code. repeat.
+# Bleed. Code. Repeat.
 
 def generate_magic():
   text = "   hello mage"

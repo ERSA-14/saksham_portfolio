@@ -1,5 +1,7 @@
 # Mornings, Code, and Curiosity
 
+![Whoami](/images/Whoami.png)
+
 _The chronicle of a modern scribe walking the line between logic and life._
 
 If you’re trying to understand what I build, it helps to understand how I think.

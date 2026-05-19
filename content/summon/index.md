@@ -1,5 +1,7 @@
 # Pull a Chair
 
+![Summon](/images/Summon.png)
+
 _Let’s swap recipes, solve serverless cloud puzzles or just talk._
 
 ## Direct Sigils
@@ -18,4 +20,4 @@ _Drop a packet. I promise I won't rate-limit you_
 
 ---
 
-[Old Resume @ 2025](https://drive.google.com/file/d/1rnaYwBMzuMnFdskRM1esQ9ORElwHWYZj/view?usp=drive_link)
+[Resume @ 2025](https://drive.google.com/file/d/1rnaYwBMzuMnFdskRM1esQ9ORElwHWYZj/view?usp=drive_link)
