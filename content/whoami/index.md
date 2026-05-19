@@ -22,7 +22,7 @@ A lot of tech is built on the easy path:- heavy frameworks, click-and-drag tools
 
 It works. It’s fast. And sometimes it feels kind of… empty.
 
-So I take the slower route. I hand-craft styling. I write custom parsers _like this one_. I build smaller tools that do exactly what I need. More effort, sure. But it keeps the work honest. And weirdly fun.
+So I take the slower route. I hand craft styling. I write custom parsers _like this one_. I build smaller tools that do exactly what I need. More effort, sure. But it keeps the work honest. And weirdly fun.
 
 ## Daily Rituals
 
