@@ -14,7 +14,7 @@
     --dim: #000000;
     --border: #000000; /* All borders are black 1px */
     --surface: #ffffff; /* Code background is pure white */
-    --max: 710px;
+    --max: 700px;
     --pad: 2rem;
 }
 
@@ -38,7 +38,7 @@ body {
     font-family: "Spectral", Georgia, serif;
     color: var(--ink);
     background: var(--white);
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing:subpixel-antialiased;
     line-height: 1.7;
 }
 
@@ -46,14 +46,14 @@ body {
 .page-wrapper,
 .container {
     max-width: var(--max);
-    margin: 0 auto;
-    padding: 2.5rem 1.5rem;
+    margin: auto;
+    padding: 1rem;
 }
 
 /* Header & Nav - no bottom line, less space */
 header {
     padding-bottom: 0.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .nav-container {
@@ -61,7 +61,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .nav-logo {
@@ -102,7 +102,6 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0;
-    margin-bottom: 1rem;
 }
 
 .brand {
@@ -159,7 +158,7 @@ h6 {
     color: var(--black);
     font-weight: 900;
     line-height: 1.25;
-    margin-top: 2rem;
+    margin-top: 1.25rem;
     margin-bottom: 1rem;
     font-family: "ACMA", serif;
 }
@@ -191,9 +190,10 @@ h6 {
 
 /* p, quote and code are structured consistently in font size, line height and color */
 p {
-    margin-bottom: 1.1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     font-size: 1rem;
-    line-height: 1.7;
+    line-height: 1.8;
     color: var(--ink);
 
     text-justify: inter-word;
@@ -235,6 +235,7 @@ blockquote {
     /* Black 1px border */
     padding: 0.5rem 1.25rem 0.5rem 1.25rem;
     margin: 1.2rem 0;
+    
     color: var(--ink);
     font-size: 1rem;
     line-height: 1.7;
