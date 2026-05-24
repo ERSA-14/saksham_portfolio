@@ -8,9 +8,9 @@ Mostly AI experiments, serverless systems, automation, Scripts and search & retr
 
 ## Agentic Coding Assistant
 
-I poke at AI until it does something interesting or useful.
+I poke at AI until it does something interesting or useful, with respect to weekly and daily limits .
 
-GenAI, function calling, reasoning models mostly just me asking, but why does it do that.
+GenAI, function calling, reasoning models mostly just me asking, but why do you do that? Explain.
 
 [Github Repository](https://github.com/ERSA-14/Python-AI)
 
@@ -18,7 +18,7 @@ GenAI, function calling, reasoning models mostly just me asking, but why does it
 
 Summoning serverless Event-driven architecture that wake up, do their job, and go back to sleep.
 
-This one’s about event-driven cloud workflows the kind where you don’t need a big always-on server just sitting there burning money.
+This one’s about event-driven cloud workflows the kind where you don’t need a big always-on server just sitting there burning money/credits.
 
 [Github Repository](https://github.com/ERSA-14/AWS-Lambda)
 
