@@ -16,8 +16,8 @@ Send a digital raven to the Email sigil above.
 _Drop a packet. I promise I won't rate-limit you_
 
 
-> "This is compiled by a self-built, lightweight tool, MD -> HTML [Static Site Generator](https://github.com/ERSA-14/saksham_portfolio)
->  built for a learning purpose." 
+> This is compiled by a self-built, lightweight tool, MD -> HTML [Static Site Generator](https://github.com/ERSA-14/saksham_portfolio)
+>  built for a learning purpose.
 
 
 ---

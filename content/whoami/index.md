@@ -14,9 +14,9 @@ I’d rather go deep than go fast. I like knowing why an architecture works, whe
 
 My whole approach is basically this class 9th English Poem :-
 
-> "Two roads diverged in a wood, and
+> Two roads diverged in a wood, and
 > I took the one less traveled by,
-> And that has made all the difference."
+> And that has made all the difference.
 
 A lot of tech is built on the easy path:- heavy frameworks, click-and-drag tools, and copy-paste everything.
 

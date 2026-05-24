@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=ACMA:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Public+Sans&display=swap');   
+@import url("https://fonts.googleapis.com/css2?family=ACMA:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Public+Sans&display=swap");
+@import url("https://googleapis.com");
+@import url("https://vetrivelcsamy.github.io/cheltenham-classic/cheltenhamclassic.css");
+
 :root {
     --black: #000000;
     --white: #ffffff;
     --ink: #000000; /* Pure black text for consistency */
-    --dim: #555555;
+    --dim: #000000;
     --border: #000000; /* All borders are black 1px */
     --surface: #ffffff; /* Code background is pure white */
     --max: 720px;
@@ -16,12 +19,14 @@
 
 * {
     box-sizing: border-box;
-    text-align: justify;
-    letter-spacing: 0.005rem;
-    word-spacing: 0.05rem;
-    text-justify: inter-word;
+    letter-spacing: 0.003rem;
+    word-spacing: 0.09rem;
 }
-
+b {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
 html {
     font-size: 17px;
     background-color: var(--white);
@@ -63,10 +68,12 @@ header {
     color: var(--black);
     text-decoration: none;
     font-weight: 500;
+    text-justify: inter-word;
+    text-align: justify;
 }
 
 .logo-strong {
-    font-weight: 600;
+    font-weight: 900;
     text-decoration: none;
 }
 
@@ -92,8 +99,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 0;
-    margin-bottom: 1.5rem;
+    padding: 0;
+    margin-bottom: 1rem;
 }
 
 .brand {
@@ -148,37 +155,35 @@ h4,
 h5,
 h6 {
     color: var(--black);
-    font-weight: 700;
+    font-weight: 900;
     line-height: 1.25;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-family: 'ACMA', serif;
-    
+    font-family: "ACMA", serif;
 }
 
 h1 {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     margin-top: 0;
     letter-spacing: -0.02em;
-    
 }
 
 h2 {
-    font-size: 1.55rem;
+    font-size: 1.65rem;
     letter-spacing: -0.01em;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 h4 {
-    font-size: 1.05rem;
+    font-size: 1.15rem;
 }
 
 h5,
 h6 {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     color: var(--dim);
 }
 
@@ -188,6 +193,9 @@ p {
     font-size: 1rem;
     line-height: 1.7;
     color: var(--ink);
+
+    text-justify: inter-word;
+    text-align: justify;
 }
 
 a {
@@ -198,7 +206,7 @@ a {
 }
 
 a:hover {
-    font-weight: 550;
+    font-weight: 900;
 }
 
 small {
@@ -218,8 +226,8 @@ small {
 
 /* Blockquote - consistent body font, black 1px left border, pure white background */
 blockquote {
-    font-family: 'Lora', serif; 
-    font-weight: 500;/* Consistent font stack */
+    font-family: "Lora", serif;
+    font-weight: 550; /* Consistent font stack */
     font-style: italic;
     border-left: 1px solid var(--border); /* Black 1px border */
     padding: 0.5rem 0 0.5rem 1.25rem;
@@ -228,24 +236,33 @@ blockquote {
     font-size: 1rem;
     line-height: 1.7;
     background-color: #ffffff;
+
+    text-justify: inter-word;
+    text-align: justify;
 }
 
 /* Lists */
 
 ol {
-    margin-bottom: 1rem;
-    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    text-align: justify;
+    text-justify: inter-word; /* Distributes spacing cleanly */
+    hyphens: auto; /* Splits long words to minimize giant gaps */
+    overflow-wrap: break-word;
 }
 ul {
-    list-style-type: square;
-    margin-bottom: 1rem;
-    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    text-align: justify;
+    text-justify: inter-word; /* Distributes spacing cleanly */
+    hyphens: auto; /* Splits long words to minimize giant gaps */
+    overflow-wrap: break-word;
 }
 
 li {
     margin-bottom: 0.5rem;
     font-size: 1rem;
-    line-height: 1.7;
 }
 
 li::marker {
@@ -262,7 +279,6 @@ code {
     padding: 0.15rem 0.3rem;
     border: 1px solid var(--border); /* Black 1px border */
     border-radius: 0;
-    
 }
 
 pre {
@@ -293,7 +309,7 @@ img {
     max-width: 100%;
     height: auto;
     margin: 1rem auto;
-    border: 1px solid var(--border); 
+    border: 1px solid var(--border);
     padding: 10px;
     /* Black 1px border */
 }
@@ -397,7 +413,7 @@ img {
 }
 
 .btn:hover {
-    font-weight: 550;
+    font-weight: 900;
 }
 
 .btn--ghost {
@@ -407,7 +423,7 @@ img {
 }
 
 .btn--ghost:hover {
-    font-weight: 550;
+    font-weight: 900;
 }
 
 .btn--small {
