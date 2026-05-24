@@ -13,7 +13,7 @@
     --dim: #000000;
     --border: #000000; /* All borders are black 1px */
     --surface: #ffffff; /* Code background is pure white */
-    --max: 720px;
+    --max: 710px;
     --pad: 2rem;
 }
 
@@ -91,7 +91,7 @@ header {
     color: var(--dim);
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 5px;
+    text-underline-offset: 6px;
 }
 
 /* Original Navbar classes (for compatibility) - no line, less space */
@@ -127,7 +127,7 @@ header {
     color: var(--dim);
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 5px;
+    text-underline-offset: 6px;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     font-weight: 600;
@@ -200,7 +200,7 @@ p {
 
 a {
     color: var(--black);
-    text-underline-offset: 5px;
+    text-underline-offset: 6px;
     text-decoration: underline;
     text-decoration-thickness: 1px;
 }
@@ -227,15 +227,16 @@ small {
 /* Blockquote - consistent body font, black 1px left border, pure white background */
 blockquote {
     font-family: "Lora", serif;
-    font-weight: 550; /* Consistent font stack */
+    font-weight: 600; /* Consistent font stack */
     font-style: italic;
-    border-left: 1px solid var(--border); /* Black 1px border */
-    padding: 0.5rem 0 0.5rem 1.25rem;
-    margin: 1.3rem 0;
+    border-left: 1px solid var(--border);
+    /* Black 1px border */
+    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+    margin: 1.2rem 0;
     color: var(--ink);
     font-size: 1rem;
     line-height: 1.7;
-    background-color: #ffffff;
+    background-color: #fafafa;
 
     text-justify: inter-word;
     text-align: justify;
@@ -258,6 +259,7 @@ ul {
     text-justify: inter-word; /* Distributes spacing cleanly */
     hyphens: auto; /* Splits long words to minimize giant gaps */
     overflow-wrap: break-word;
+    list-style-type: square;
 }
 
 li {

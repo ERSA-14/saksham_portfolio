@@ -20,7 +20,7 @@ _Here lies the method behind the madness_
 
 1. **No bloat:-** If a page is just text, it should load like it’s just text.
 2. **Know what’s happening:-** I like building close to the metal so I actually understand the moving parts.
-3. **I chase “why”:-** I’m the person who clicks into the rabbit hole. Parsers, infra, weird edge cases.
+3. **I chase “why”:-** I'm the person who can't leave a question half-answered. Parsers, infra, weird edge cases.
 4. **It should feel human:-** A site shouldn’t read like a template. It should sound like someone.
 
 ## Taming the Monster
@@ -31,9 +31,9 @@ I've been poking at AI long enough to know it's not magic, it's just a very conf
 
 ## Artifacts of the Craft
 
-- [AI Agent:- Breeding intelligence, exploring reasoning paths](https://github.com/ERSA-14/Python-AI)
-- [AWS Lambda:- Summoning serverless Event - driven architecture](https://github.com/ERSA-14/AWS-Lambda)
-- [RAG Search:- Bridging AI models with precise private databases](https://github.com/ERSA-14/rag)
+- **AI Agent:-** [Breeding intelligence, exploring reasoning paths](https://github.com/ERSA-14/Python-AI)
+- **AWS Lambda:-** [Summoning serverless Event-driven architecture](https://github.com/ERSA-14/AWS-Lambda)
+- **RAG Search:-** [Bridging AI models with precise private databases](https://github.com/ERSA-14/rag)
 
 ## Writing Digital Spells
 

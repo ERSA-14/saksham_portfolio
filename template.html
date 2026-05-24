@@ -1,35 +1,38 @@
 <!doctype html>
 <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Saksham Grimoire's {{ Title }}</title>
+        <link rel="icon" href="/images/letter_S.svg" type="image/svg+xml" />
+        <link href="/index.css" rel="stylesheet" />
+        <link rel="prefetch" href="/" as="document" />
+        <link rel="prefetch" href="/whoami/" as="document" />
+        <link rel="prefetch" href="/artifacts/" as="document" />
+        <link rel="prefetch" href="/summon/" as="document" />
+    </head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Saksham Grimoire's {{ Title }}</title>
-    <link rel="icon" href="/images/letter_S.svg" type="image/svg+xml" />
-    <link href="/index.css" rel="stylesheet" />
-</head>
+    <body>
+        <div class="page-wrapper">
+            <header>
+                <div class="nav-container">
+                    <a class="nav-logo" href="/"
+                        ><span class="logo-strong"
+                            >World of Saksham Gupta</span
+                        ></a
+                    >
+                    <ul class="nav-links">
+                        <li><a href="/">Origin</a></li>
+                        <li><a href="/whoami/">Whoami</a></li>
+                        <li><a href="/artifacts/">Artifacts</a></li>
+                        <li><a href="/summon/">Summon</a></li>
+                    </ul>
+                </div>
+            </header>
 
-<body>
-    <div class="ambient-glow-1"></div>
-    <div class="ambient-glow-2"></div>
-
-    <div class="page-wrapper">
-        <header>
-            <div class="nav-container">
-                <a class="nav-logo" href="/"><span class="logo-strong">World of Saksham Gupta</span></a>
-                <ul class="nav-links">
-                    <li><a href="/">Origin</a></li>
-                    <li><a href="/whoami/">Whoami</a></li>
-                    <li><a href="/artifacts/">Artifacts</a></li>
-                    <li><a href="/summon/">Summon</a></li>
-                </ul>
-            </div>
-        </header>
-
-        <main>
-            <article>{{ Content }}</article>
-        </main>
-    </div>
-</body>
-
+            <main>
+                <article>{{ Content }}</article>
+            </main>
+        </div>
+    </body>
 </html>
