@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=ACMA:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Public+Sans&display=swap');   
 :root {
     --black: #000000;
     --white: #ffffff;
@@ -14,6 +16,10 @@
 
 * {
     box-sizing: border-box;
+    text-align: justify;
+    letter-spacing: 0.005rem;
+    word-spacing: 0.05rem;
+    text-justify: inter-word;
 }
 
 html {
@@ -37,7 +43,6 @@ body {
     padding: 2.5rem 1.5rem;
 }
 
-
 /* Header & Nav - no bottom line, less space */
 header {
     padding-bottom: 0.5rem;
@@ -54,9 +59,10 @@ header {
 
 .nav-logo {
     font-family: "Spectral", Georgia, serif;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     color: var(--black);
     text-decoration: none;
+    font-weight: 500;
 }
 
 .logo-strong {
@@ -110,7 +116,7 @@ header {
 }
 
 .nav a {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     color: var(--dim);
     text-decoration: underline;
     text-decoration-thickness: 1px;
@@ -146,12 +152,15 @@ h6 {
     line-height: 1.25;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    font-family: 'ACMA', serif;
+    
 }
 
 h1 {
     font-size: 2.2rem;
     margin-top: 0;
     letter-spacing: -0.02em;
+    
 }
 
 h2 {
@@ -209,15 +218,16 @@ small {
 
 /* Blockquote - consistent body font, black 1px left border, pure white background */
 blockquote {
-    font-family: "Spectral", Georgia, serif; /* Consistent font stack */
+    font-family: 'Lora', serif; 
+    font-weight: 500;/* Consistent font stack */
     font-style: italic;
     border-left: 1px solid var(--border); /* Black 1px border */
     padding: 0.5rem 0 0.5rem 1.25rem;
-    margin: 1rem 0;
+    margin: 1.3rem 0;
     color: var(--ink);
     font-size: 1rem;
     line-height: 1.7;
-    background: var(--white);
+    background-color: #ffffff;
 }
 
 /* Lists */
@@ -252,12 +262,13 @@ code {
     padding: 0.15rem 0.3rem;
     border: 1px solid var(--border); /* Black 1px border */
     border-radius: 0;
+    
 }
 
 pre {
     font-family:
         ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    background: var(--surface); /* Pure white background */
+    background-color: #fafafa;
     border: 1px solid var(--border); /* Black 1px border */
     padding: 1.25rem;
     overflow: auto;
@@ -282,8 +293,9 @@ img {
     max-width: 100%;
     height: auto;
     margin: 1rem auto;
-    filter: grayscale(100%);
-    border: 1px solid var(--border); /* Black 1px border */
+    border: 1px solid var(--border); 
+    padding: 10px;
+    /* Black 1px border */
 }
 
 /* Original Grid & Card layout classes - black 1px borders, pure white backgrounds */

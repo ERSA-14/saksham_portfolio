@@ -2,7 +2,7 @@
 
 ![Home](/images/Home.png)
 
-_Welcome to my little corner of the internet, Me a software artisan and engineer trying to keep things simple._
+_Welcome to my little corner of the internet, Me a software engineer trying to keep things simple._
 
 Come on in. Seriously.
 
