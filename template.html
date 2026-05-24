@@ -4,14 +4,23 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Saksham Grimoire's {{ Title }}</title>
+
+        <link rel="preload" href="/index.css" as="style">
+        <link rel="preload" href="/images/letter_S.svg" as="image" type="image/svg+xml">
+
         <link rel="icon" href="/images/letter_S.svg" type="image/svg+xml" />
         <link href="/index.css" rel="stylesheet" />
-        <link rel="prefetch" href="/" as="document" />
-        <link rel="prefetch" href="/whoami/" as="document" />
-        <link rel="prefetch" href="/artifacts/" as="document" />
-        <link rel="prefetch" href="/summon/" as="document" />
-    </head>
 
+        <link rel="prefetch" href="/images/Home.png" as="image">
+        <link rel="prefetch" href="/images/Whoami.png" as="image">
+        <link rel="prefetch" href="/images/Artifacts.png" as="image">
+        <link rel="prefetch" href="/images/Summon.png" as="image">
+
+        <link rel="prefetch" href="/" as="document">
+        <link rel="prefetch" href="/whoami/" as="document">
+        <link rel="prefetch" href="/artifacts/" as="document">
+        <link rel="prefetch" href="/summon/" as="document">
+    </head>
     <body>
         <div class="page-wrapper">
             <header>
@@ -29,7 +38,6 @@
                     </ul>
                 </div>
             </header>
-
             <main>
                 <article>{{ Content }}</article>
             </main>

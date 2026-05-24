@@ -4,8 +4,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Public+Sans&display=swap");
 @import url("https://googleapis.com");
-@import url("https://vetrivelcsamy.github.io/cheltenham-classic/cheltenhamclassic.css");
-
+@import url('https://fonts.cdnfonts.com/css/georgia');
+@import url('https://fonts.cdnfonts.com/css/libre-baskerville');   
+@import url('https://fonts.cdnfonts.com/css/crimson-pro'); 
+@import url('https://fonts.cdnfonts.com/css/times-new-roman');   
 :root {
     --black: #000000;
     --white: #ffffff;
@@ -19,13 +21,13 @@
 
 * {
     box-sizing: border-box;
-    letter-spacing: 0.003rem;
-    word-spacing: 0.09rem;
+    letter-spacing: 0.0015rem;
+    word-spacing: 0.03rem;
 }
 b {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: georgia,"Times New Roman", Times, serif;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 900;
 }
 html {
     font-size: 17px;
@@ -227,7 +229,7 @@ small {
 /* Blockquote - consistent body font, black 1px left border, pure white background */
 blockquote {
     font-family: "Lora", serif;
-    font-weight: 600; /* Consistent font stack */
+    font-weight: 500; /* Consistent font stack */
     font-style: italic;
     border-left: 1px solid var(--border);
     /* Black 1px border */
