@@ -206,10 +206,10 @@ a {
     text-decoration: underline;
     text-decoration-thickness: 1px;
 }
-
+/*
 a:hover {
     font-weight: 900;
-}
+}*/
 
 small {
     font-size: 0.8rem;
@@ -417,20 +417,20 @@ img {
     letter-spacing: 0.03em;
     text-align: center;
 }
-
+/*
 .btn:hover {
     font-weight: 900;
-}
+}*/
 
 .btn--ghost {
     background: var(--white);
     color: var(--black);
     border: 1px solid var(--border);
 }
-
+/*
 .btn--ghost:hover {
     font-weight: 900;
-}
+}*/
 
 .btn--small {
     padding: 0.35rem 0.7rem;
