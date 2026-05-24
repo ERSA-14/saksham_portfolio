@@ -31,9 +31,9 @@ I've been poking at AI long enough to know it's not magic, it's just a very conf
 
 ## Artifacts of the Craft
 
-- **AI Agent:-** [Breeding intelligence, exploring reasoning paths](https://github.com/ERSA-14/Python-AI)
-- **AWS Lambda:-** [Summoning serverless Event-driven architecture](https://github.com/ERSA-14/AWS-Lambda)
-- **RAG Search:-** [Bridging AI models with precise private databases](https://github.com/ERSA-14/rag)
+- **AI Agent:-** [Breeding intelligence, exploring reasoning paths (AI that plans, acts, reflects, and tries again)](https://github.com/ERSA-14/Python-AI).
+- **AWS Lambda:-** [Summoning serverless Event-driven architecture (Functions that wake, fire, and vanish without a trace)](https://github.com/ERSA-14/AWS-Lambda).
+- **RAG Search:-** [Bridging AI models with precise private knowledge vaults (AI that reads your docs before it speaks)](https://github.com/ERSA-14/rag).
 
 ## Writing Digital Spells
 

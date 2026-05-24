@@ -3,10 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=ACMA:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Public+Sans&display=swap");
-@import url('https://fonts.cdnfonts.com/css/georgia');
-@import url('https://fonts.cdnfonts.com/css/libre-baskerville');   
-@import url('https://fonts.cdnfonts.com/css/crimson-pro'); 
-@import url('https://fonts.cdnfonts.com/css/times-new-roman');
+@import url("https://fonts.cdnfonts.com/css/georgia");
+@import url("https://fonts.cdnfonts.com/css/libre-baskerville");
+@import url("https://fonts.cdnfonts.com/css/crimson-pro");
+@import url("https://fonts.cdnfonts.com/css/times-new-roman");
 :root {
     --black: #000000;
     --white: #ffffff;
@@ -26,7 +26,7 @@
 b {
     font-size: 1.1rem;
     font-weight: 900;
-    
+
     font-family: "Spectral", Georgia, serif;
 }
 html {
@@ -38,7 +38,7 @@ body {
     font-family: "Spectral", Georgia, serif;
     color: var(--ink);
     background: var(--white);
-    -webkit-font-smoothing:subpixel-antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
     line-height: 1.7;
 }
 
@@ -235,7 +235,8 @@ blockquote {
     /* Black 1px border */
     padding: 0.5rem 1.25rem 0.5rem 1.25rem;
     margin: 1.2rem 0;
-    
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
     color: var(--ink);
     font-size: 1rem;
     line-height: 1.7;
