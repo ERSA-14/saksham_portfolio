@@ -3,11 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=ACMA:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Public+Sans&display=swap");
-@import url("https://googleapis.com");
 @import url('https://fonts.cdnfonts.com/css/georgia');
 @import url('https://fonts.cdnfonts.com/css/libre-baskerville');   
 @import url('https://fonts.cdnfonts.com/css/crimson-pro'); 
-@import url('https://fonts.cdnfonts.com/css/times-new-roman');   
+@import url('https://fonts.cdnfonts.com/css/times-new-roman');
 :root {
     --black: #000000;
     --white: #ffffff;
@@ -25,9 +24,10 @@
     word-spacing: 0.03rem;
 }
 b {
-    font-family: georgia,"Times New Roman", Times, serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 900;
+    
+    font-family: "Spectral", Georgia, serif;
 }
 html {
     font-size: 17px;
