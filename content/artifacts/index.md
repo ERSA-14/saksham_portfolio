@@ -1,6 +1,6 @@
 # My SpellBook
 
-![Artifacts](/images/Artifacts.png)
+![Artifacts](/images/compressed_Artifacts.avif)
 
 _A detailed look into the mechanics of my primary creations._
 

@@ -1,6 +1,6 @@
 # Conjured, not copied
 
-![Home](/images/Home.png)
+![Home](/images/compressed_Home.avif)
 
 _Welcome to my little corner of the internet, Me a software engineer trying to keep things simple._
 

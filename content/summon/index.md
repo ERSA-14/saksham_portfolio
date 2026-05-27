@@ -1,6 +1,6 @@
 # Pull a Chair
 
-![Summon](/images/Summon.png)
+![Summon](/images/compressed_Contact.avif)
 
 _Let’s swap recipes, solve serverless cloud puzzles or just talk._
 

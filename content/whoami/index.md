@@ -1,6 +1,6 @@
 # Mornings, Code, and Curiosity
 
-![Whoami](/images/Whoami.png)
+![Whoami](/images/compressed_Whoami.avif)
 
 _The chronicle of a modern scribe walking the line between logic and life._
 
