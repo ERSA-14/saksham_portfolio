@@ -1,4 +1,4 @@
-# Design. Build. Repeat.
+# Simple. Human. Woven.
 
 ![Home](/images/compressed_Home.avif)
 

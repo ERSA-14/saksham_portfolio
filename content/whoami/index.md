@@ -1,4 +1,4 @@
-# Real. Raw. Refined.
+# Real. Honest. Magic.
 
 ![Whoami](/images/compressed_Whoami.avif)
 

@@ -1,4 +1,4 @@
-# Clean. Built. Shipped.
+# Made. Refined. Ignited.
 
 ![Artifacts](/images/compressed_Artifacts.avif)
 
