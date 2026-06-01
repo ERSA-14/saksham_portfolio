@@ -1,8 +1,8 @@
-# My SpellBook
+# Clean. Built. Shipped.
 
 ![Artifacts](/images/compressed_Artifacts.avif)
 
-_A detailed look into the mechanics of my primary creations._
+_This is where I build stuff, take it apart, rebuild it, and then wonder why I didn’t just take a nap._
 
 Mostly AI experiments, serverless systems, automation, Scripts and search & retrieval work. Stuff I actually use & care about  and keep coming back to.
 

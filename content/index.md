@@ -1,39 +1,15 @@
-# Conjured, not copied
+# Design. Build. Repeat.
 
 ![Home](/images/compressed_Home.avif)
 
 _Welcome to my little corner of the internet, Me a software engineer trying to keep things simple._
 
-Come on in. Seriously.
-
-This is where I build stuff, take it apart, rebuild it, and then wonder why I didn’t just take a nap.
-
-I’m **Saksham Gupta**. I build services, poke at AI, and I like designing systems that don’t fall over the second reality shows up.
+I’m **Saksham Gupta**. I speak English, Hindi, _Python_, _TypeScript_ and _Java_, I build services, poke at AI, and I like designing systems that don’t fall over the second reality shows up.
 
 And yeah, I’m pretty sure software is a human craft. Not just tickets and “deliverables.” Every line of code is part of a bigger story, and if the tool you’re building doesn’t make someone’s life a bit easier… what’s the point?
 
 > I want AI to do my laundry and dishes so that I can do art and writing, not for AI to do my art and writing so that I can do my laundry and dishes.
 
-## Why It Works
-
-_Here lies the method behind the madness_
-
-1. **No bloat:-** If a page is just text, it should load like it’s just text.
-2. **Know what’s happening:-** I like building close to the metal so I actually understand the moving parts.
-3. **I chase “why”:-** I'm the person who can't leave a question half-answered. Parsers, infra, weird edge cases.
-4. **It should feel human:-** A site shouldn’t read like a template. It should sound like someone.
-
-## Taming the Monster
-
-Some mornings it listens. Most mornings it doesn't
-
-I've been poking at AI long enough to know it's not magic, it's just a very confident guesser. My job is figuring out when it's right, when it's lying, and when it has absolutely no idea but sounds certain anyway.
-
-## Artifacts of the Craft
-
-- **AI Agent:-** [AI that plans, acts, reflects, and tries again](https://github.com/ERSA-14/Python-AI).
-- **AWS Lambda:-** [Functions that wake, fire, and vanish with a heavy damage](https://github.com/ERSA-14/AWS-Lambda).
-- **RAG Search:-** [AI that reads your docs before it speaks](https://github.com/ERSA-14/rag).
 
 ## Writing Digital Spells
 
@@ -47,3 +23,9 @@ def generate_magic():
 
 print(generate_magic())
 ```
+
+## Taming the Monster
+
+Some mornings it listens. Most mornings it doesn't
+
+I've been poking at AI long enough to know it's not magic, it's just a very confident guesser. My job is figuring out when it's right, when it's lying, and when it has absolutely no idea but sounds certain anyway.
