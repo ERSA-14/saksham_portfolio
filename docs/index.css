@@ -15,8 +15,8 @@
 
 * {
     box-sizing: border-box;
-    letter-spacing: 0.0015rem;
-    word-spacing: 0.03rem;
+    letter-spacing: 0.002rem;
+    word-spacing: 0.04rem;
 }
 
 b {
@@ -26,7 +26,7 @@ b {
 }
 
 html {
-    font-size: 17px;
+    font-size: 18px;
     background-color: var(--white);
 }
 
@@ -70,11 +70,12 @@ header {
 .logo-strong {
     font-weight: 900;
     text-decoration: none;
+    font-size: 1.3rem;
 }
 
 .nav-links {
     display: flex;
-    gap: 1.5rem;
+    gap: 1.4rem;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -170,7 +171,7 @@ blockquote {
     color: var(--ink);
     font-size: 1.05rem;
     line-height: 1.7;
-    background-color: #fafafa;
+    background-color: #fbfbfb;
     text-justify: inter-word;
     text-align: justify;
 }
@@ -204,8 +205,7 @@ li::marker {
 }
 
 code {
-    font-family:
-        ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-family: "Consolas", "Monaco", "Courier New", monospace;
     font-size: 0.9em;
     background: var(--surface);
     color: var(--black);
@@ -215,9 +215,8 @@ code {
 }
 
 pre {
-    font-family:
-        ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    background-color: #fafafa;
+    font-family: "Consolas", "Monaco", "Courier New", monospace;
+    background-color: #fbfbfb;
     border: 1px solid var(--border);
     padding: 1.25rem;
     overflow: auto;

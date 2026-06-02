@@ -4,7 +4,7 @@
 
 _Welcome to my little corner of the internet, Me a software engineer trying to keep things simple._
 
-I’m **Saksham Gupta**. I speak English, Hindi, _Python_, _TypeScript_ and _Java_, I build services, poke at AI, and I like designing systems that don’t fall over the second reality shows up.
+I’m **Saksham Gupta**. I speak English, Hindi, **Python**, **TypeScript** and **Java**, I build services, poke at AI, and I like designing systems that don’t fall over the second reality shows up.
 
 And yeah, I’m pretty sure software is a human craft. Not just tickets and “deliverables.” Every line of code is part of a bigger story, and if the tool you’re building doesn’t make someone’s life a bit easier… what’s the point?
 
@@ -23,9 +23,3 @@ def generate_magic():
 
 print(generate_magic())
 ```
-
-## Taming the Monster
-
-Some mornings it listens. Most mornings it doesn't
-
-I've been poking at AI long enough to know it's not magic, it's just a very confident guesser. My job is figuring out when it's right, when it's lying, and when it has absolutely no idea but sounds certain anyway.
