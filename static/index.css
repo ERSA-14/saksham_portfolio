@@ -171,7 +171,7 @@ blockquote {
     color: var(--ink);
     font-size: 1.05rem;
     line-height: 1.7;
-    background-color: #fbfbfb;
+    background-color: #fcfcfc;
     text-justify: inter-word;
     text-align: justify;
 }
@@ -216,7 +216,7 @@ code {
 
 pre {
     font-family: "Consolas", "Monaco", "Courier New", monospace;
-    background-color: #fbfbfb;
+    background-color: #fcfcfc;
     border: 1px solid var(--border);
     padding: 1.25rem;
     overflow: auto;

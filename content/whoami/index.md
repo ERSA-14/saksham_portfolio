@@ -24,7 +24,7 @@ So I take the slower route. I hand craft styling. I write custom parsers _like t
 
 _Here lies the method behind the madness_
 
-1. **No bloat:-** If a page is just text, it should load like it’s just text.
-2. **Know what’s happening:-** I like building close to the metal.
-3. **I chase “why”:-** I'm the person who can't leave a question half-answered.
-4. **It should feel human:-** A site shouldn’t read like a template.
+1. **No bloat:-** If a page is just text, it should load like it’s just text. Keep it simple stupid. _By design._
+2. **Know what’s happening:-** I like building close to the metal so I actually understand the moving parts. _No black boxes._
+3. **I chase “why”:-** I'm the person who can't leave a question half-answered. Fundamentals before frameworks. _Depth over surface._
+4. **It should feel human:-** A site shouldn’t read like a template. It should sound like someone. _Every single time_
