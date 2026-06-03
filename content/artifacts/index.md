@@ -16,7 +16,7 @@ The goal is simple: fetch the right context fast, so the answers aren’t just c
 
 ## Agentic Coding Assistant
 
-I poke at AI until it does something interesting or useful, with respect to weekly and daily limits .
+I dabble with AI until it does something interesting or useful, with respect to weekly and daily limits .
 
 GenAI, function calling, reasoning models mostly just me asking, but why do you do that? Explain.
 
