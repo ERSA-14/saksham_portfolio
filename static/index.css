@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=ACMA:wght@400;700&display=swap");
 @import url("https://fonts.cdnfonts.com/css/georgia");
 
 :root {
@@ -26,7 +25,7 @@ b {
 }
 
 html {
-    font-size: 17px;
+    font-size: 17.1px;
     background-color: var(--white);
 }
 
@@ -71,7 +70,7 @@ header {
     font-weight: 900;
     text-decoration: none;
     font-size: 1.3rem;
-    font-family: "ACMA",serif
+    font-family: "Spectral", Georgia, serif
 }
 
 .nav-links {
@@ -110,7 +109,7 @@ h6 {
     line-height: 1.25;
     margin-top: 1.25rem;
     margin-bottom: 1rem;
-    font-family: "ACMA", serif;
+    font-family: "Spectral", Georgia, serif;
 }
 
 h1 {
