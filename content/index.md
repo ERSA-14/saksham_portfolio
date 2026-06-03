@@ -4,7 +4,7 @@
 
 _Welcome to my little corner of the internet, Me a Software Engineer._
 
-I’m **Saksham Gupta**. I speak English, Hindi, **Python**, **TypeScript** and **Java**, I build Services on **React**, run on **Node**, store things in **MySql** or **Oracle**, ship on **Aws**, wrap it in **Docker**, let **Kubernetes** sort out the rest, play with AI somewhere in between, **Git** keeps the history honest, **Linux** powers it all, and REST APIs are how everything finds each other.
+Myself **Saksham Gupta**. I speak English, Hindi, **Python**, **TypeScript** and **Java**, I build Services on **React**, run on **Node**, store things in **MySql** or **Oracle**, ship on **Aws**, wrap it in **Docker**, let **Kubernetes** sort out the rest, play with AI somewhere in between, **Git** keeps the history honest, **Linux** powers it all, and REST APIs are how everything finds each other.
 
 Every line of code is a Small Contract with the person who will eventually use it. I take that seriously because software that doesn't make someone's life easier is just overhead.
 
