@@ -1,17 +1,17 @@
-# Ping. Talk. Conjure.
+# Reach. Connect. Begin.
 
-![Summon](/images/compressed_Contact.avif)
+![Contact](/images/contact.avif)
 
-_Let’s swap recipes, solve serverless cloud puzzles or just talk._
+_Open to work, collaborate, or just talk tech, Let's build something worth shipping._
 
-## Direct Sigils
+## Direct Contact
 
 - **Email:-** [Saksham22sg@gmail.com](mailto:saksham22sg@gmail.com)
 - **Phone:-** [+91-635-879-8314](tel:+916358798314)
 
 ## Send a Message
 
-Send a digital raven to the Email sigil above.
+For detailed discussions, project inquiries, or just a proper introduction, email works best.
 
 _Drop a packet. I promise I won't rate-limit you_
 

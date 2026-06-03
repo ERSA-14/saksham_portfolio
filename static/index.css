@@ -1,27 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,700&display=swap");
-@import url("https://fonts.cdnfonts.com/css/georgia");
 
 :root {
     --black: #000000;
     --white: #ffffff;
-    --ink: #000000;
-    --dim: #000000;
-    --border: #000000;
-    --surface: #ffffff;
     --max: 755px;
 }
 
 * {
     box-sizing: border-box;
-    letter-spacing: 0.002rem;
     word-spacing: 0.04rem;
 }
 
 b {
     font-size: 1.1rem;
     font-weight: 900;
-    font-family: "Spectral", Georgia, serif;
 }
 
 html {
@@ -31,7 +24,7 @@ html {
 
 body {
     font-family: "Spectral", Georgia, serif;
-    color: var(--ink);
+    color: var(--black);
     background: var(--white);
     -webkit-font-smoothing: subpixel-antialiased;
     line-height: 1.7;
@@ -57,12 +50,10 @@ header {
 }
 
 .nav-logo {
-    font-family: "Spectral", Georgia, serif;
     font-size: 1.25rem;
     color: var(--black);
     text-decoration: none;
     font-weight: 500;
-    text-justify: inter-word;
     text-align: justify;
 }
 
@@ -70,7 +61,6 @@ header {
     font-weight: 900;
     text-decoration: none;
     font-size: 1.3rem;
-    font-family: "Spectral", Georgia, serif
 }
 
 .nav-links {
@@ -82,20 +72,11 @@ header {
 }
 
 .nav-links a {
-    font-family: "Spectral", Georgia, serif;
     font-size: 0.95rem;
-    color: var(--dim);
+    color: var(--black);
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 6px;
-}
-
-main {
-    width: 100%;
-}
-
-article {
-    width: 100%;
 }
 
 h1,
@@ -109,7 +90,6 @@ h6 {
     line-height: 1.25;
     margin-top: 1.25rem;
     margin-bottom: 1rem;
-    font-family: "Spectral", Georgia, serif;
 }
 
 h1 {
@@ -131,19 +111,12 @@ h4 {
     font-size: 1.15rem;
 }
 
-h5,
-h6 {
-    font-size: 1.05rem;
-    color: var(--dim);
-}
-
 p {
     margin-bottom: 1rem;
     margin-top: 1rem;
     font-size: 1rem;
     line-height: 1.8;
-    color: var(--ink);
-    text-justify: inter-word;
+    color: var(--black);
     text-align: justify;
 }
 
@@ -154,25 +127,17 @@ a {
     text-decoration-thickness: 1px;
 }
 
-small {
-    font-size: 0.8rem;
-    color: var(--dim);
-}
-
 blockquote {
     font-family: "Lora", serif;
     font-weight: 600;
     font-style: italic;
-    border-left: 1px solid var(--border);
+    border-left: 1px solid var(--black);
     padding: 0.5rem 1.25rem 0.5rem 1.25rem;
-    margin: 1.2rem 0;
-    margin-top: 1.4rem;
-    margin-bottom: 1.4rem;
-    color: var(--ink);
+    margin: 1.4rem 0;
+    color: var(--black);
     font-size: 1.05rem;
     line-height: 1.7;
     background-color: #fafafa;
-    text-justify: inter-word;
     text-align: justify;
 }
 
@@ -180,7 +145,6 @@ ol {
     margin-bottom: 0.5rem;
     padding-left: 1rem;
     text-align: justify;
-    text-justify: inter-word;
     hyphens: auto;
     overflow-wrap: break-word;
 }
@@ -189,7 +153,6 @@ ul {
     margin-bottom: 0.5rem;
     padding-left: 1rem;
     text-align: justify;
-    text-justify: inter-word;
     hyphens: auto;
     overflow-wrap: break-word;
     list-style-type: square;
@@ -201,26 +164,26 @@ li {
 }
 
 li::marker {
-    color: var(--dim);
+    color: var(--black);
 }
 
 code {
     font-family: "Consolas", "Monaco", "Courier New", monospace;
     font-size: 0.9em;
-    background: var(--surface);
+    background: var(--white);
     color: var(--black);
     padding: 0.15rem 0.3rem;
-    border: 1px solid var(--border);
+    border: 1px solid var(--black);
     border-radius: 0;
 }
 
 pre {
     font-family: "Consolas", "Monaco", "Courier New", monospace;
-    background-color:#fafafa;
-    border: 1px solid var(--border);
+    background-color: #fafafa;
+    border: 1px solid var(--black);
     padding: 1.25rem;
     overflow: auto;
-    color: var(--ink);
+    color: var(--black);
     font-size: 0.9em;
     line-height: 1.6;
     margin: 1rem 0;
@@ -240,6 +203,6 @@ img {
     max-width: 100%;
     height: auto;
     margin: 1rem auto;
-    border: 1px solid var(--border);
+    border: 1px solid var(--black);
     padding: 10px;
 }
