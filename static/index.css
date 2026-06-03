@@ -10,7 +10,7 @@
     --dim: #000000;
     --border: #000000;
     --surface: #ffffff;
-    --max: 740px;
+    --max: 755px;
 }
 
 * {
@@ -59,7 +59,7 @@ header {
 
 .nav-logo {
     font-family: "Spectral", Georgia, serif;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     color: var(--black);
     text-decoration: none;
     font-weight: 500;

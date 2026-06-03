@@ -4,7 +4,7 @@
 
 _Welcome to my little corner of the internet, Me a Software Engineer trying to keep things simple._
 
-I’m **Saksham Gupta**. I speak English, Hindi, **Python**, **TypeScript** and **Java**, I build Services on **React**, run on **Node**, store things in **MySQL** or **Oracle**, ship on **AWS**, wrap it in **Docker**, let **Kubernetes** sort out the rest, poke at AI somewhere in between, **Git** keeps the history honest, **Linux** powers it all, and REST APIs are how everything finds each other.
+I’m **Saksham Gupta**. I speak English, Hindi, **Python**, **TypeScript** and **Java**, I build Services on **React**, run on **Node**, store things in **MySQL** or **Oracle**, ship on **AWS**, wrap it in **Docker**, let **Kubernetes** sort out the rest, mess with AI somewhere in between, **Git** keeps the history honest, **Linux** powers it all, and REST APIs are how everything finds each other.
 
 And yeah, I’m pretty sure software is a human craft. Not just tickets and “deliverables.” Every line of code is part of a bigger story, and if the tool you’re building doesn’t make someone’s life a bit easier… what’s the point?
 
